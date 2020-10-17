@@ -1,11 +1,12 @@
 from random import randrange as rand
 import pygame, sys
+import torch
 
 # The configuration
 cell_size = 18
 cols =      10
 rows =      22
-maxfps =    30
+maxfps =    144
 
 colors = [
 (0,   0,   0  ),
